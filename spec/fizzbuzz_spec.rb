@@ -7,7 +7,7 @@ describe 'Fizzbuzz' do
   end
 
   it 'should correctly apply fizzbuzz to a given range' do
-    expect(@fb.range).to include("Fizz", "Fizzbuzz", "Buzz").or be_a(Integer)
+    expect(@fb.range).to include("Fizz", "Fizzbuzz", "Buzz").or be_an(Integer)
   end
 
 
